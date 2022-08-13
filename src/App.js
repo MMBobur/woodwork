@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+
+import {useState} from "react"
 
 function App() {
+
+  const [matn, setMatn] = useState("") 
+  const [text, setText] = useState([]) 
+
+  const handleSave = () => {
+    let a = text
+    a.push(matn)
+    setText(a)
+    setMatn("")
+  }
+
+  const bbb = (e) => {
+    setMatn(e.target.value)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <input type="text" value={matn} onChange={bbb} placeholder="..."/>
+      <button onClick={handleSave}>OK</button>    
+      <h1>
+        {text.map(v=>{
+          return (
+            <h4>{v}</h4>
+          )
+        })}
+      </h1>  
+    </>
   );
 }
 
