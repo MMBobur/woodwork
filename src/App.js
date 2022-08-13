@@ -1,5 +1,8 @@
 
 import {useState} from "react"
+import Navbar from "./components/navbar"
+import Footer from "./components/footer"
+import Home from "./pages/Home"
 
 function App() {
 
@@ -19,15 +22,9 @@ function App() {
 
   return (
     <>
-      <input type="text" value={matn} onChange={ddd} placeholder="..."/>
-      <button onClick={handleSave}>OK</button>    
-      <h1>
-        {text.map(v=>{
-          return (
-            <h4>{v}</h4>
-          )
-        })}
-      </h1>  
+      <Navbar/>
+      <Home/>
+      <Footer/>
     </>
   );
 }
