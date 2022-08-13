@@ -13,13 +13,13 @@ function App() {
     setMatn("")
   }
 
-  const bbb = (e) => {
+  const ddd = (e) => {
     setMatn(e.target.value)
   }
 
   return (
     <>
-      <input type="text" value={matn} onChange={bbb} placeholder="..."/>
+      <input type="text" value={matn} onChange={ddd} placeholder="..."/>
       <button onClick={handleSave}>OK</button>    
       <h1>
         {text.map(v=>{
