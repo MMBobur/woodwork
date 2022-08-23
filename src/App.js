@@ -1,13 +1,14 @@
 import { useState, useEffect } from "react"
-import "./style.css"
+import "./style.css";
+import Services from './pages/Services';
+import Cards from './components/Services/Card'
 
-import axios from "axios";
 
 function App() {
 
   return (
     <>
-      App
+      <Services />
     </>
   );
 }
