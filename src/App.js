@@ -1,13 +1,15 @@
-import { useState, useEffect } from "react"
+import React from "react"
 import "./style.css"
+import Blog from './pages/Blog';
+import Footer from "./components/Footer";
 
-import axios from "axios";
 
 function App() {
 
   return (
     <>
-      App
+      <Blog />
+      <Footer />
     </>
   );
 }
