@@ -5,7 +5,7 @@ import Index from "../../components/blog"
 
 function Blog() {
   return (
-    <div>
+    <div style={{marginBottom:'5%'}}>
      <Banner/>
      <Index/>
     </div>

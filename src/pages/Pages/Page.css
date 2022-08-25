@@ -27,10 +27,6 @@
     align-items: center;
   }
   
-  .img-wrapper > img,
-  .img-wrapper > .content {
-    transition: 200ms ease-in-out;
-  }
   
   
   

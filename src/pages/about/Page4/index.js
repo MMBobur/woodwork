@@ -31,7 +31,7 @@ function Page4() {
           <Grid>
             <img src={circle} width="170px" alt="" />
             <Typography
-              mt="-8%"
+              mt="-10%"
               ml="3%"
               sx={{ position: "absolute", fontSize: "70px", color: "#C9BF52" }}
             >
@@ -59,7 +59,7 @@ function Page4() {
           <Grid>
             <img src={circle} width="170px" alt="" />
             <Typography
-              mt="-8%"
+              mt="-11%"
               ml="3%"
               sx={{ position: "absolute", fontSize: "70px", color: "#C9BF52" }}
             >
@@ -87,7 +87,7 @@ function Page4() {
           <Grid>
             <img src={circle} width="170px" alt="" />
             <Typography
-              mt="-8%"
+              mt="-10%"
               ml="3%"
               sx={{ position: "absolute", color: "#C9BF52" }}
             >
@@ -115,7 +115,7 @@ function Page4() {
           <Grid>
             <img src={circle} width="170px" alt="" />
             <Typography
-              mt="-8%"
+              mt="-10%"
               ml="3%"
               sx={{ fontSize: "70px", position: "absolute", color: "#C9BF52" }}
             >
@@ -143,7 +143,7 @@ function Page4() {
           <Grid>
             <img src={circle} width="170px" alt="" />
             <Typography
-              mt="-8%"
+              mt="-10%"
               ml="3%"
               sx={{ fontSize: "70px", position: "absolute", color: "#C9BF52" }}
             >
