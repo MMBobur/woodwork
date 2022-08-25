@@ -23,27 +23,6 @@ export default function RowAndColumnSpacing() {
       title:"https://preview.colorlib.com/theme/woodwork/img/blog/details/xbd-item-2.jpg.pagespeed.ic.s4kQvQaIjs.webp",
      
     },
-    // {
-    //   id: "2",
-    //   img: "https://preview.colorlib.com/theme/woodwork/img/blog/xblog-2.jpg.pagespeed.ic.5J8MRlyp_t.webp",
-    //   title: "ALL THE WOODWORKING COMPANIES WHO NOW MAKE HEAL",
-    //   year: "by Derrick Armstrong Apr 07, 2020",
-    //   info: "The U.S. Department of Homeland Security has identified the wood products industry as an essential critical infrastructure workforce in the nation’s...",
-    // },
-    // {
-    //   id: "3",
-    //   img: "https://preview.colorlib.com/theme/woodwork/img/blog/xblog-3.jpg.pagespeed.ic.zA3Zkmm3d3.webp",
-    //   title: "A WOODWORK ENTHUSIAST'S HOME IN XIAMEN IS SET INSIDE A FORMER",
-    //   year: "by Derrick Armstrong Apr 07, 2020",
-    //   info: "The U.S. Department of Homeland Security has identified the wood products industry as an essential critical infrastructure workforce in the nation’s...",
-    // },
-    // {
-    //   id: "4",
-    //   img: "https://preview.colorlib.com/theme/woodwork/img/blog/xblog-4.jpg.pagespeed.ic.xHGROZ6DYi.webp",
-    //   title: "JUST BECAUSE IT ISN’T HAPPENING RIGHT NOW DOESN’T MEAN",
-    //   year: "by Derrick Armstrong Apr 07, 2020",
-    //   info: "The U.S. Department of Homeland Security has identified the wood products industry as an essential critical infrastructure workforce in the nation’s...",
-    // },
   ];
 
   const data2 = [
@@ -100,7 +79,7 @@ export default function RowAndColumnSpacing() {
   ];
 
   return (
-      <Box><Banner/>
+      <Box sx={{mb:5}}><Banner/>
       
     <Container>
       <Box sx={{ width: "100%",backgroundColor:'white',marginTop:"-5%" }}>

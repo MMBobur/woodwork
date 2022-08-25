@@ -61,7 +61,7 @@ function Page2() {
           <Box mt="7%" mb="5%" sx={{ width: "100%" }}>
             <Divider />
 
-            <Grid mt='-4.2%' sx={{display:'flex',flexDirection:'row',justifyContent:'space-evenly'}}>
+            <Grid mt='-5.2%' sx={{display:'flex',flexDirection:'row',justifyContent:'space-evenly'}}>
               <Box sx={{display:'flex',flexDirection:'column',alignItems:'center'}}>
                 <Typography sx={{fontSize:'35px',fontWeight:650}}>1995</Typography>
                 <CircleIcon style={{ color: "gray" }} />

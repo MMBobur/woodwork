@@ -20,7 +20,7 @@ function Page3() {
       ></Grid>
       <Grid
         mt="-27%"
-        ml="27%"
+        ml="23%"
         sx={{
           width: "700px",
           height: "470px",

@@ -104,7 +104,7 @@ export default function CustomizedProgressBars() {
         </Grid>
 
         <Grid>
-          <img width="110%" height='700px' src={image1} alt="Image" />
+          <img width="100%" height='700px' src={image1} alt="Image" />
         </Grid>
       </Grid>
     </Container>
