@@ -1,0 +1,138 @@
+.avctiveLink{
+    border: 1px solid #BFB332;
+    color:'red'
+}
+.SlideOne{
+    background-image: url('./img/hero-1.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mySwiper{
+    height: 600px;
+}
+.swiper-button-next::after{
+    color: white;
+    padding: 10px;
+    background: rgba(17, 17, 17, 0.7);
+    height: 100px;
+    align-items: center;
+    display: flex;
+    padding-left: 25px;
+    padding-right: 20px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+.swiper-button-prev::after{
+    color: white;
+    padding: 10px;
+    background: rgba(17, 17, 17, 0.7);
+    height: 100px;
+    align-items: center;
+    display: flex;
+    padding-right: 25px;
+    padding-left: 20px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+.Slidesone{
+    background-image: url('./img/services-1.jpg.JPG');
+}
+.Slidetwo{
+    background-image: url('./img/services-2.jpg.JPG');
+}
+.Slidethree{
+    background-image: url('./img/services-3.jpg.JPG');
+}
+.Slidesfour{
+    background-image: url('./img/services-4.jpg.JPG');
+}
+.Slidesfive{
+    background-image: url('./img/services-2.jpg.JPG');
+}
+.one, .two, .three, .four, .five{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./img/shape-1.png.JPG');
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 170px;
+    cursor: default;
+}
+.Slidesone:hover .one, .Slidetwo:hover .two,.Slidethree:hover .three,.Slidesfour:hover .four,.Slidesfive:hover .five{
+    background-image: url('./img/xshape-2.png.pagespeed.ic.Fl-6oHdZGq.JPG') !important;
+    color: white;
+}
+.mYSwiper{
+    height: 500px;
+    border:'1px solid red';
+}
+.Product1{
+    background-image: url('./img/portfolio-1.jpg.JPG');
+    width: 100%;
+    height: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Product2{
+    background-image: url('./img/portfolio-2.jpg.JPG');
+    width: 100%;
+    height: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Product3{
+    background-image: url('./img/portfolio-3.jpg.JPG');
+    width: 100%;
+    height: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Shape, .Shape2, .Shape3{
+    background-image: url('./img/shape-3.png.JPG');
+    height: 170px;
+    width: 345px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    opacity: 0;
+    transition: all 0.5s;
+    transform: scale(0);
+}
+.Product1:hover .Shape{
+    opacity: 1;
+    transform: scale(1);
+}
+.Product2:hover .Shape2{
+    opacity: 1;
+    transform: scale(1);
+}
+.Product3:hover .Shape3{
+    opacity: 1;
+    transform: scale(1);
+}
+.Shape01,.Shape02,.Shape03,.Shape04,.Shape05,.Shape06{
+    background-image: url('./img/shape-4.png.JPG');
+    width: 98px;
+    height: 98px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.otherimg:hover .Shape01,.otherimg2:hover .Shape02,.otherimg3:hover .Shape03,.otherimg4:hover .Shape04,.otherimg5:hover .Shape05,.otherimg6:hover .Shape06{
+    background-image: url('./img/shape-5.png.JPG');
+}
+.otherimg:hover .icon,.otherimg2:hover .icon,.otherimg3:hover .icon,.otherimg4:hover .icon,.otherimg5:hover .icon,.otherimg6:hover .icon{
+    color: white;
+}
