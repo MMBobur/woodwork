@@ -1,5 +1,6 @@
 import React from "react"
 import "./style.css"
+import About from './pages/About'
 import Blog from './pages/Blog';
 import Footer from "./components/Footer";
 
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <>
+      <About/>
       <Blog />
       <Footer />
       <Pages />
