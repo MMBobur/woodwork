@@ -11,6 +11,7 @@ import Contacts from './pages/Contacts'
 import { Route, Routes } from 'react-router-dom'
 
 
+
 function App() {
 
   return (
@@ -28,6 +29,7 @@ function App() {
       </Routes>
 
       <Footer/>
+
     </>
   );
 }
