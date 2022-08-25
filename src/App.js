@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 import axios from "axios";
 import Pages from "./pages/Pages/Pages";
-
+import Contacts from "./pages/Contacts";
 function App() {
 
   return (
@@ -15,6 +15,7 @@ function App() {
       <Blog />
       <Footer />
       <Pages />
+      <Contacts/>
     </>
   );
 }
