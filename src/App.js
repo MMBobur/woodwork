@@ -12,10 +12,13 @@ import { Route, Routes } from 'react-router-dom'
 
 
 
+import Asosiy from "./pages/Pages/Blog.details/Asosiy"
+
 function App() {
 
   return (
     <>
+
       <Navbar />
       
       <Routes>
